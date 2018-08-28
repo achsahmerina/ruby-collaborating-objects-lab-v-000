@@ -42,6 +42,7 @@ class Artist
   def self.create(name)
     new_var = self.new(name)
     new_var.save
+    return new_var
   end
 
   def print_songs
