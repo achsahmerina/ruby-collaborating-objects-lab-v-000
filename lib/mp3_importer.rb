@@ -16,6 +16,5 @@ class MP3Importer
         Song.new_by_filename(file)
         #binding.pry
       end
-end
   end
-   end
+end
